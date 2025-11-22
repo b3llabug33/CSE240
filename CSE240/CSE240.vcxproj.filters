@@ -21,5 +21,8 @@
     <ClCompile Include="..\..\..\..\Downloads\hw05q1.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="alien.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

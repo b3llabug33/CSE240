@@ -1,5 +1,5 @@
 
-/*
+
 // CSE240 Homework
 // Bella Sheridan
 // compiler used: Visual studio
@@ -313,4 +313,3 @@ void load(char* fileName)
 	fclose(file);
 }
 
-*/
