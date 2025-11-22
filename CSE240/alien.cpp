@@ -39,7 +39,7 @@ bool isWhatzit(const string& s, int& i) {
 	i++;
 
 	//make sure second is z or d
-	if (s[i] != 'z' || s[i] != 'd' || (int)s.length()) {
+	if (s[i] != 'z' && s[i] != 'd' || (int)s.length()) {
 		i = back;
 		return false;
 	}
@@ -53,5 +53,25 @@ bool isWhatzit(const string& s, int& i) {
 
 	//is whatzit
 	return true;
+
+}
+
+bool isBlurb(const string& s) {
+	//index and string length to compare later
+	int i = 0;
+	int l = (int)s.length();
+
+	if (isWhoozit(s, i) == false) {
+		return false;
+	}
+
+	while (isWhatzit(s, i)) {
+
+	}
+		
+	return (i == l);
+}
+
+int main() {
 
 }
