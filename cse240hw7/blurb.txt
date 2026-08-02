@@ -1,0 +1,41 @@
+﻿C++
+a. explain the reason(s) for your choice of the language. (consider: was it efficient? easy to use? easy to apply to this problem? etc.)
+
+
+I used c++ because we use it for programming in the robotics club so I would rather practice in that that in C. I did think it was efficient and easy to apply to the problem also.
+
+
+b. describe the general problem-solving process demonstrated in that language.
+
+
+C++ allowed me to break the problem up into helper functions which made the problem way less overwhelming. I also found it useful using the & reference for the variables.
+
+
+c. explain the design of your program with regards to the language and the paradigm used.
+
+
+The program is organized into helper functions isWhoozit and isWhatzit that each check one rule, and isBlurb combines them to check the whole word from left to right. It uses pass-by-reference (int& i) to move one shared index through the string, and it saves the index (back) to undo changes when a rule fails.
+
+
+
+
+
+
+SCHEME 
+a. explain the reason(s) for your choice of the language. (consider: was it efficient?
+easy to use? easy to apply to this problem? etc.)
+
+
+I mostly just chose this language because I enjoyed the homework’s in Scheme much more than the Prolog ones and I think I understand Scheme better.
+
+
+b. describe the general problem-solving process demonstrated in that language.
+
+
+In Scheme the problem-solving process is usually to break a big problem into small functions and use recursion to handle repetition instead of loops then get final answer by combining the results of the smaller functions 
+
+
+c. explain the design of your program with regards to the language and the paradigm used.
+
+
+I used Scheme to split a large problem into smaller ones using the functions skipy, whoozit, and whatzit each function takes the string and a current index and returns either a new index or fails depending on if the index has the letter we want. Then in blurb I use whatzit and whoozit to determine if the word is a blurb. I did the c++ program first so the format of this one is definitely inspired by that one.

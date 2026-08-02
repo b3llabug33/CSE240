@@ -1,16 +1,25 @@
 # CSE240 — Introduction to Programming Languages
 
-Coursework from CSE240, exploring the fundamentals of C and C++ including macros, pointers, memory management, and object-oriented design.
+Coursework from CSE240, covering the fundamentals of several programming paradigms: imperative/OOP (C, C++), logic programming (Prolog), and functional programming (Racket).
 
 ## Assignments
 
-| File | Topic |
-|------|-------|
-| `hw02q1.c` | C macros vs. function definitions — comparing behavior of `#define` macros and equivalent functions with side effects |
-| `hw04q1.c` | Pointers and memory in C |
-| `CSE240/alien.cpp` | Recursive string pattern recognition — implements a grammar validator for `whoozit`, `whatzit`, and `blurb` patterns using pass-by-reference |
+| Folder | Language(s) | Topic |
+|--------|-------------|-------|
+| `cse240hw1` | C | Intro C exercises |
+| `cse240hw2` | C | Macros vs. function definitions — comparing `#define` macros and equivalent functions with side effects |
+| `cse240hw3` | C | Pointers and memory in C |
+| `cse240hw4` | C++ | `Patient` class exercise |
+| `cse240hw5` | Prolog | Family tree and meal-planning logic queries |
+| `cse240hw6` | Prolog | Logic programming exercises |
+| `cse240hw7` | C++, Racket | Same "blurb" pattern-recognition exercise implemented across paradigms |
+| `cse240hw8` | C++ | Multi-class object-oriented design (`Container`, `Room`, and character classes) |
+| `cse240hw9` | Racket | Functional programming exercise |
+| `cse240extraCredit` | Racket | Extra credit — "blurb" pattern-recognition |
 
 ## Languages
 
 - C
 - C++
+- Prolog
+- Racket
